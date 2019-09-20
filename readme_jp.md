@@ -23,10 +23,11 @@
 
 Pro Microにエポキシ接着剤を盛って、簡単にはもげないようにします。
 
-参考1:[ProMicroのモゲ防止ついでにQMK_Firmwareを書き込む - Qiita](https://qiita.com/hdbx/items/2f3e4ddfcadda2a5578e)
-参考2:[もげ予防 - Self-Made Keyboards in Japan](https://scrapbox.io/self-made-kbds-ja/%E3%82%82%E3%81%92%E4%BA%88%E9%98%B2)
+- 参考1:[ProMicroのモゲ防止ついでにQMK_Firmwareを書き込む - Qiita](https://qiita.com/hdbx/items/2f3e4ddfcadda2a5578e)
 
-エポキシ接着剤の2液を混ぜます。
+- 参考2:[もげ予防 - Self-Made Keyboards in Japan](https://scrapbox.io/self-made-kbds-ja/%E3%82%82%E3%81%92%E4%BA%88%E9%98%B2)
+
+まずエポキシ接着剤の2液を混ぜます。
 
 ![adhesive_prepare](image/promicro_adhesive_prepare.jpg)
 
@@ -34,7 +35,7 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 
 ![usb_side_hole](image/promicro_usb_side_hole.jpg)
 
-この穴を避けて、つまようじなどで側面と背面に接着剤を盛っていきます。なお、このPro Microは裏返して基板に刺すので、Micro USBコネクタより上に接着剤が盛り上がらないようにしてください。
+この穴を避けて、つまようじなどで側面と背面に接着剤を盛っていきます。なお、このPro Microは裏返した状態で基板に接することになるため、Micro USBコネクタより上に接着剤が盛り上がらないようにしてください。
 
 ![promicro_pate](image/promicro_pate.jpg)
 
@@ -42,7 +43,9 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 
 ### ロータリーエンコーダーの取り付け
 
-表側（ミリメートル目盛線がある側）から差し込み、裏側をはんだ付けします。まずは対角の2箇所をハンダ付けし、傾いている場合はハンダを温めて傾きを解消してから残りの箇所をハンダ付けしてください。
+表側（ミリメートル目盛線がある側）から差し込み、裏側をはんだ付けします。
+
+まずは対角の2箇所をハンダ付けし、傾いている場合はハンダを温めて傾きを解消してから残りの箇所をハンダ付けしてください。
 
 ![rotary_encoder](image/rotary_encoder.jpg)
 
