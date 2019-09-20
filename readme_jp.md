@@ -9,7 +9,7 @@
 | Pro Micro | 1個 | スルーホールをZigzag仕様にしてあるのでコンスルーではなく普通の付属ピンヘッダを使います | [AliExpress](https://www.aliexpress.com/)で「Pro Micro ATmega32U4 5V 16MHz」を検索 | 290円($2.66) |
 | Dシャフト（平軸） プッシュスイッチ付きロータリーエンコーダー | 5個 |  | https://ja.aliexpress.com/item/32835514781.html | 5個で230円($2.12) |
 | Dシャフト ロータリーエンコーダー用キャップ | 5個 |  | https://ja.aliexpress.com/item/4000111239246.html | 10個で110円($1.01) |
-| クッションゴム または すべりどめシート | 1揃え |  | ダイソー クッションゴム 14個入り または すべりどめシート | 108円 |
+| クッションゴム または すべりどめシート | 1袋 |  | ダイソー クッションゴム 14個入り または すべりどめシート | 108円 |
 | Micro USBケーブル | 1本 | 通信ができるもの | ダイソー | 108円 |
 | 計 |  |  |  | 2,246円 |
 
@@ -57,19 +57,19 @@ Pro Microにエポキシ接着剤を盛って、簡単にはもげないよう�
 
 基板の表側のPro Micro設置部分の2列スルーホールに、Pro Microに付属している12ピンのピンヘッダの短い側を根本まで差し込みます。
 
-![pin_header_attach](C:/tool/GitHub/re5-macropad-doc/image/pin_header_attach.jpg)
+![pin_header_attach](image/pin_header_attach.jpg)
 
 スルーホールがジグザグになっているので、少し入れにくくなっています。ゆっくり押し込んでください。
 
 ピンヘッダにPro Microを差し込みます。**Pro Microの裏面（平らなほう）が上になるように、またマイクロUSBが基板端になるように**します。
 
-![pin_header_attach_2](C:/tool/GitHub/re5-macropad-doc/image/pin_header_attach_2.jpg)
+![pin_header_attach_2](image/pin_header_attach_2.jpg)
 
 **向きを間違えるとリカバリーが大変です。表裏、左右をよく確認してください。**
 
 ニッパーでPro Microからはみ出したピンヘッダの足を切ります。
 
-![pinheader_cut](C:/tool/GitHub/re5-macropad-doc/image/pinheader_cut.jpg)
+![pinheader_cut](image/pinheader_cut.jpg)
 
 Pro Microとピンヘッダをハンダ付けします。まず四隅をハンダ付けし、横から見てピンヘッダとの間に隙間があればハンダを温めながら押さえて隙間がなくなるようにします。そのあと、順番に全てハンダ付けします。
 
