@@ -88,14 +88,35 @@ Pro Microとピンヘッダをハンダ付けします。まず四隅をハン�
 ### ファームウェアの書き込み
 
 以下のリンク先を参考にして、QMK Firmwareのビルド環境を用意します。
-- [Getting Started - QMK Firmware](https://docs.qmk.fm/#/newbs_getting_started)
 
-ビルド環境構築時に持ってくるQMK Firmwareは、フォークした[https://github.com/e3w2q/qmk_firmware/tree/re5](https://github.com/e3w2q/qmk_firmware/tree/re5)とします。または、本家を持ってきて、そこに[https://github.com/e3w2q/qmk_firmware/tree/re5/keyboards/handwired/re5](https://github.com/e3w2q/qmk_firmware/tree/re5/keyboards/handwired/re5)以下をコピーしてもよいです。
 
-用意されたキーマップを書き込むにはqmk_firmwareのフォルダに移動し、以下を実行します。
+- Windows
+  - [QMKビルド環境の構築(Windows Msys2編)](https://gist.github.com/e3w2q/4bc86e531d1c893d3d13af3e9895a94a)
+- macOS
+  - [セットアップ - QMK Firmware](https://docs.qmk.fm/#/ja/newbs_getting_started?id=macos)
+- Linux
+  - [セットアップ - QMK Firmware](https://docs.qmk.fm/#/ja/newbs_getting_started?id=linux)
+
+構築中、
 
 ```
-make handwired/re5/rev1:default:avrdude  
+qmk setup
+```
+
+と入力する代わりに
+
+```
+qmk setup e3w2q/qmk_firmware --branch e3w2q
+```
+
+と入力してください。
+
+または、`qmk setup`した後に、`C:\Users\USER_NAME\qmk_firmware\keyboards`配下に[https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q](https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q)以下をコピーしてもよいです。
+
+用意されたキーマップを書き込むには以下を実行します。
+
+```
+qmk flash -kb e3w2q/re5/rev1 -km default
 ```
 
 **Detecting USB port, reset your controller now...** と表示されたら下図の赤マル同士をピンセットや針金で一瞬短絡させると書き込みが始まります。
