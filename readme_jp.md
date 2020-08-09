@@ -89,7 +89,6 @@ Pro Microとピンヘッダをハンダ付けします。まず四隅をハン�
 
 以下のリンク先を参考にして、QMK Firmwareのビルド環境を用意します。
 
-
 - Windows
   - [QMKビルド環境の構築(Windows Msys2編)](https://gist.github.com/e3w2q/4bc86e531d1c893d3d13af3e9895a94a)
 - macOS
